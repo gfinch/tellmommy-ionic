@@ -1,0 +1,22 @@
+{
+	"ProjectName": "tellmommy-ionic",
+	"ProjectPath": "/Users/gf26229/personal/tellmommy-ionic",
+	"SourceDir": "src",
+	"DistributionDir": "build",
+	"BuildCommand": "npm run-script build",
+	"StartCommand": "npm run-script start",
+	"InitializationTime": "2018-02-17-21-40-01",
+	"LastConfigurationTime": "2018-02-17-21-40-19",
+	"LastNPMInstallTime": "",
+	"FrontendLastBuildTime": "",
+	"LastPublishTime": "",
+	"BackendFormat": "yml",
+	"BackendLastBuildTime": "",
+	"BackendLastUpdateTime": "",
+	"BackendLastUpdateSuccessful": false,
+	"BackendProjectID": "64a6d53e-aa61-4b37-bad0-10b416290585",
+	"BackendProjectName": "tellmommy-ionic",
+	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/64a6d53e-aa61-4b37-bad0-10b416290585/build",
+	"BackendProjectCreationTime": "2018-02-18T03:39:10.083Z",
+	"BackendProjectLastUpdatedTime": "2018-02-18T03:39:33.756Z"
+}
