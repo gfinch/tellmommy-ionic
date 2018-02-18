@@ -1,0 +1,8 @@
+{
+  "name": "tellmommy-ionic",
+  "app_id": "62019c37",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
