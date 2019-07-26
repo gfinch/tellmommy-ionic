@@ -14,12 +14,18 @@ const awsmobile = {
     'aws_content_delivery_bucket_region': 'us-east-1',
     'aws_content_delivery_cloudfront': 'enable',
     'aws_content_delivery_cloudfront_domain': 'd32zyyq2ffxor4.cloudfront.net',
+    'aws_mandatory_sign_in': 'enable',
     'aws_mobile_analytics_app_id': '61a948d93b1b4a679e1f65fbb6fb902d',
     'aws_mobile_analytics_app_region': 'us-east-1',
     'aws_project_id': '64a6d53e-aa61-4b37-bad0-10b416290585',
     'aws_project_name': 'tellmommy-ionic',
     'aws_project_region': 'us-east-1',
     'aws_resource_name_prefix': 'tellmommyionic-mobilehub-668031713',
+    'aws_sign_in_enabled': 'enable',
+    'aws_user_pools': 'enable',
+    'aws_user_pools_id': 'us-east-1_g4YsBrHi8',
+    'aws_user_pools_mfa_type': 'OFF',
+    'aws_user_pools_web_client_id': '7v5q03rih3ggovp5s3bam25qbl',
 }
 
 export default awsmobile;

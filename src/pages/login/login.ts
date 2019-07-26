@@ -7,10 +7,13 @@ import { TabsPage } from '../tabs/tabs';
 import { SignupPage } from '../signup/signup';
 import { ConfirmSignInPage } from '../confirmSignIn/confirmSignIn';
 
+import md5 from 'md5';
+
 const logger = new Logger('Login');
 
 export class LoginDetails {
   username: string;
+  email: string;
   password: string;
 }
 
@@ -19,12 +22,12 @@ export class LoginDetails {
   templateUrl: 'login.html'
 })
 export class LoginPage {
-  
+
   public loginDetails: LoginDetails;
 
   constructor(public navCtrl: NavController,
               public loadingCtrl: LoadingController) {
-    this.loginDetails = new LoginDetails(); 
+    this.loginDetails = new LoginDetails();
   }
 
   login() {
@@ -34,6 +37,7 @@ export class LoginPage {
     loading.present();
 
     let details = this.loginDetails;
+    details.username = md5(details.email);
     logger.info('login..');
     Auth.signIn(details.username, details.password)
       .then(user => {
